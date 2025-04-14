@@ -7,9 +7,10 @@ const Div = styled.div`
 export const App = () => {
   return (
     <Div>
-      <i className="fa fa-camera-retro"></i> fa-camera-aaaaaaaretro
-      <i className="fa fa-download"></i> Font Awesome 4 fa2-camera-aaaaaaaretro
+      <i className="fa fa-camera-retro"></i>
+
       <div>123</div>
+      <i className="fa fa-download"></i>
     </Div>
   );
 };
