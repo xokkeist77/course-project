@@ -1,16 +1,15 @@
-import ReactLogo from './assets/react.svg?react';
-import { MyComponent } from './MyComponent';
+import styled from 'styled-components';
 
-import styles from './index.module.css';
+const Div = styled.div`
+  text-align: center;
+`;
 
 export const App = () => {
-	const date = new Date().getFullYear();
-	return (
-		<div className={styles.app}>
-			<header className={styles.header}>
-				<MyComponent />
-				<p>{date} год</p>
-			</header>
-		</div>
-	);
+  return (
+    <Div>
+      <i className="fa fa-camera-retro"></i> fa-camera-aaaaaaaretro
+      <i className="fa fa-download"></i> Font Awesome 4 fa2-camera-aaaaaaaretro
+      <div>123</div>
+    </Div>
+  );
 };
