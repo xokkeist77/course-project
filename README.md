@@ -27,4 +27,4 @@
 - user: id / login / roleId
 - posts: массив post: id / title / imageURL / publishedAt / commentsCount
 - post: id / title / imageURL / content /publishedAt / comments: массив comment: id / author / content / publishedAt
-- users: массив user: id / login / registeredAr / role
+- users: массив user: id / login / registeredAt / role
